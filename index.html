@@ -1,7 +1,16 @@
 <script>
     function getComputerChoice(){
         const choice = ["rock","paper","scissors"];
-        const index = math.floor(math.random() * 3);
+        const index = Math.floor(Math.random() * 3);
         return choice[index];
     }
+    function getHumanChoice(){
+        let humanChoice = prompt("enter a valid choice:");
+        return humanChoice;
+    }
+    console.log(getHumanChoice());
+
+
+
+
 </script>
